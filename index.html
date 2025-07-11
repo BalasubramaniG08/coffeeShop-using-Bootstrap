@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- project title -->
+    <title>Coffee Shop - BootStrap</title>
+    <!-- favourite icom -->
+    <link rel="shortcut icon" href="./asset/images/logo.png" type="image/x-icon">
+    <!-- BootStrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- BootStrap Icons Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+    
+    <header> <!-- 1.Parent container -->
+
+        <!-- Navbar  -->
+
+       
+        <nav class="navbar navbar-expand-lg p-3 fixed-top bg-white ">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="./asset/images/logo.png" alt="Logo" width="50px" class="ms-5">
+              </a>
+        
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-2 me-5 mt-2">
+                  <li class="nav-item">
+                    <a class="nav-link active fs-5" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active fs-5" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active fs-5" href="#">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active fs-5" href="#">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active fs-5" href="#">Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active fs-5" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <!-- Hero -->
+
+        <div class="hero"> <!-- 2.Component -->
+            <div class="container"> <!-- 3.Component container-->
+                <div class="row d-flex"> <!-- 4.row-1 -->
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-6 text-center"> <!--5.column-1-->
+                            <h1 class="fw-bold display-3">Coffee Heaven</h1> <!--7.Content container-->
+                            <p class="my-2 fs-6 fs-md-">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci ipsa id vero perferendis, reiciendis dolores!</p> <!--7.Content container-->
+                            <button class="btn b-clr px-4 py-2 ">About Us</button> <!--7.Content container-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main> <!-- 1.Parent container -->
+
+        <!-- Our Menu -->
+
+        <div class="ourMenu"> <!-- 2.Component -->
+            <div class="container mt-4"> <!-- 3.Component container-->
+                <div class="row d-flex align-items-center"> <!-- 4.row-1 -->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6"> <!--5.column-1-->
+                        <figure><img class="img-fluid" src=".//asset/images/about-img.jpg" alt=""></figure>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6" > <!--5.column-2-->
+                        <h2 class="fw-bold fs-1">A Cup Of Coffee Can Complete Your Day</h2>
+                        <p class="my-2 fs-6 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis corrupti. fuga sit  est  dicta quod incidunt velit Incidunt fuga sit numquam est fuga sit numquam est</p>
+                        <button class="btn b-clr px-4 py-2 ">Our Menu</button> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Facility -->
+
+        <div class="Facility"> <!-- 2.Component -->
+            <div class="container screenSize "> <!-- 3.Component container-->
+                <div class="row text-center mt-4 ">
+                    <div class="col">
+                        <img src="./asset/images/heading-img.jpg " class="h-img"alt="" >
+                        <h2 class="fw-bold fs-1">Our Facility</h2>
+                    </div>
+                </div>
+                <div class="row text-center  mt-4"> <!-- 4.row-2 -->
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 ">
+                        <div class="card border-0 mx-auto" >
+                            <img src="./asset/images/icon-1.png" class="img-fluid w-50 mx-auto d-block p-2" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Varieties Of Coffee</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                          </div>
+                    </div>    
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 ">
+                        <div class="card border-0  mx-auto" >
+                            <img src="./asset/images/icon-2.png" class="img-fluid w-50 mx-auto d-block p-2" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Coffee Beans</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                          </div>
+                    </div> 
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 ">
+                        <div class="card border-0  mx-auto" >
+                            <img src="./asset/images/icon-3.png" class="img-fluid w-50 mx-auto d-block p-2" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Breakfast And Sweets</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                          </div>
+                    </div> 
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 ">
+                        <div class="card border-0  mx-auto" >
+                            <img src=".//asset/images/icon-4.png" class="img-fluid w-50 mx-auto d-block p-2" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Ready To Go Coffee</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                          </div>
+                    </div> 
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Popular -->
+
+        <div class="popular"> <!-- 2.Component -->
+            <div class="container screenSize-1"> <!-- 3.Component container-->
+                <div class="row text-center mt-4">
+                    <div class="col">
+                        <img src="./asset/images/heading-img.jpg" class="h-img " alt="" >
+                        <h2 class="fw-bold fs-1">Popular Menu</h2>
+                    </div>
+                </div>
+                <div class="row text-center mt-4"> <!-- 4.row-2 -->
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4 ">
+                        <img src=".//asset/images/menu-1.png" alt="" class="img-fluid">
+                        <h4 class="fw-normal mt-2 fs-4">Love You Coffee</h4>
+                    </div>    
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+                        <img src="./asset/images/menu-2.png" alt="" class="img-fluid">
+                        <h4 class="fw-normal mt-2">Cappuccino</h4>
+                    </div> 
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+                        <img src="./asset/images/menu-3.png" alt="" class="img-fluid">
+                        <h4 class="fw-normal mt-2">Mocha Coffee</h4>
+                    </div> 
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+                        <img src="./asset/images/menu-4.png" alt="" class="img-fluid">
+                        <h4 class="fw-normal mt-2">Frappuccino</h4>
+                    </div> 
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+                        <img src="./asset/images/menu-5.png" alt="" class="img-fluid">
+                        <h4 class="fw-normal mt-2">Black Coffee</h4>
+                    </div> 
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+                        <img src=".//asset/images/menu-6.png" alt="" class="img-fluid">
+                        <h4 class="fw-normal mt-2">Love Heart Coffee</h4>
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+        <!-- Gallery -->
+
+        <div class="gallery"> <!-- 2.Component -->
+            <div class="container screenSize"> <!-- 3.Component container-->
+                <div class="row text-center mt-4">
+                    <div class="col">
+                        <img src=".//asset/images/heading-img.jpg" class="h-img" alt="" >
+                        <h2 class="fw-bold fs-1">Our Gallery</h2>
+                    </div>
+                </div>
+                <div class="row text-center mt-4"> <!-- 4.row-2 -->
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4 ">
+                        <img src="./asset/images/gallery-1.jpg" class="img-fluid w-100  p-2" alt="">
+                    </div>    
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+                        <img src="./asset/images/gallery-2.jpg" class="img-fluid w-100  p-2" alt="">
+                    </div> 
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+                        <img src="./asset/images/gallery-3.jpg" class="img-fluid w-100  p-2" alt="">
+                    </div> 
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+                        <img src="./asset/images/gallery-4.jpg" class="img-fluid w-100 p-2" alt="">
+                    </div> 
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+                        <img src=".//asset/images/gallery-5.jpg" class="img-fluid w-100  p-2" alt="">
+                    </div> 
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+                        <img src="./asset/images/gallery-6.jpg" class="img-fluid p-2" alt="">
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+        <!-- Team -->
+
+        <div class="Team"> <!-- 2.Component -->
+            <div class="container screenSize-1"> <!-- 3.Component container-->
+                <div class="row text-center mt-4">
+                    <div class="col">
+                        <img src="./asset/images/heading-img.jpg" class="h-img" alt="" >
+                        <h2 class="fw-bold fs-1">Our Gallery</h2>
+                    </div>
+                </div>
+                <div class="row text-center mt-4"> <!-- 4.row-2 -->
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4 ">
+                        <img src=".//asset/images/our-team-1.jpg" class="img-fluid p-2" alt="">
+                        <h4 class="fw-normal mt-2">john Deo</h4>
+                    </div>    
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+                        <img src="./asset/images/our-team-2.jpg" class="img-fluid p-2" alt="">
+                        <h4 class="fw-normal mt-2">john Deo</h4>
+                    </div> 
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+                        <img src="./asset/images/our-team-3.jpg" class="img-fluid p-2" alt="">
+                        <h4 class="fw-normal mt-2">john Deo</h4>
+                    </div> 
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+                        <img src="./asset/images/our-team-4.jpg" class="img-fluid p-2" alt="">
+                        <h4 class="fw-normal mt-2">john Deo</h4>
+                    </div> 
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+                        <img src="./asset/images/our-team-5.jpg" class="img-fluid p-2" alt="">
+                        <h4 class="fw-normal mt-2">john Deo</h4>
+                    </div> 
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 mb-4">
+                        <img src="./asset/images/our-team-6.jpg" class="img-fluid p-2" alt="">
+                        <h4 class="fw-normal mt-2">john Deo</h4>
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer> <!-- 1.Parent container -->
+
+        <!-- Contact -->
+
+        <div class="contact"> <!-- 2.Component -->
+            <div class="container screenSize"> <!-- 3.Component container-->
+                <div class="row text-center mt-4">
+                    <div class="col">
+                        <img src="./asset/images/heading-img.jpg" class="h-img" alt="" >
+                        <h2 class="fw-bold fs-1">Contact Us</h2>
+                    </div>
+                </div>
+
+                <div class="row d-flex align-items-center"> <!-- 4.row-1 -->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6"> <!--5.column-1-->
+                        <figure><img class="img-fluid" src="./asset/images/contact-img (1).jpg" class=""alt=""></figure>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 " > <!--5.column-2-->
+                       <div class="border  border-dark p-4 text-center">
+                          <h3 class="h1 mb-4 fw-semibold">Book A Table</h3>
+                             <form>
+                                 <div class="mb-4">
+                                     <input type="text" class="form-control border-dark p-2" placeholder="Enter Your Name">
+                                 </div>
+                                 <div class="mb-4">
+                                     <input type="tel" class="form-control  border-dark p-2" placeholder="Enter Your Number">
+                                 </div>
+                                 <div class="mb-4">
+                                     <input type="number" class="form-control border-dark p-2" placeholder="How Many Guests">
+                                 </div>
+                                     <button class="btn b-clr px-4 py-2 ">Send Message</button> <!--7.Content container-->
+                             </form>
+                       </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Icon -->
+
+        <div class="icon"> <!-- 2.Component -->
+            <div class="container"> <!-- 3.Component container-->
+                <div class="row text-center  mt-4 border-bottom border-2 border-dark p-3"> <!-- 4.row-2 -->
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 ">
+                        <div class="card border-0 mx-auto"  >
+                            <div class="rounded-circle d-inline-flex justify-content-center align-items-center icn d-flex mx-auto">
+                            <i class="fas fa-envelope text-white fs-1"></i>
+                            </div>   
+                            <div class="card-body">
+                              <h5 class="card-title ">Our Mail</h5>
+                              <p class="card-text h5">Shaakshi@Gmail.Com</p>
+                              <p class="card-text h5">Hyhy@Gmail.Com</p>
+                           </div>
+                        </div>
+                    </div>    
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 ">
+                        <div class="card border-0 mx-auto"  >
+                            <div class="rounded-circle d-inline-flex justify-content-center align-items-center icn d-flex mx-auto">
+                            <i class="bi bi-clock-fill text-white fs-1"></i>
+                            </div>   
+                            <div class="card-body">
+                              <h5 class="card-title ">Opening Hours</h5>
+                              <p class="card-text h5">07:00am To 09:00pm</p>
+                           </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 ">
+                        <div class="card border-0 mx-auto" >
+                            <div class="rounded-circle d-inline-flex justify-content-center align-items-center icn d-flex mx-auto">
+                            <i class="bi bi-geo-alt-fill text-white fs-1"></i>
+                            </div>   
+                            <div class="card-body">
+                              <h5 class="card-title ">Shop Location</h5>
+                              <p class="card-text h5">Mumbai, India- 400101</p>
+                           </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 ">
+                        <div class="card border-0 mx-auto"  >
+                            <div class="rounded-circle d-inline-flex justify-content-center align-items-center icn d-flex mx-auto">
+                            <i class="bi bi-telephone-fill text-white fs-1"></i>
+                        
+                            </div>   
+                            <div class="card-body">
+                              <h5 class="card-title ">Our Number</h5>
+                              <p class="card-text h5">+91-123-456-7890</p>
+                              <p class="card-text h5">+91-111-222-3333</p>
+                           </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row"> <!-- 4.row-2 -->
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 text-center m-3"> <!--5.column-1-->
+                        <p class="h5">© Copyright @ 2022 By  <!--7.Content container-->
+                            <span style="color: #BE9C79;">Mr. Web Designer </span>| All Rights Reserved <!--7.Content container-->
+                             
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</body>
